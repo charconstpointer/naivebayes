@@ -10,4 +10,4 @@ y = my_data[:, 2:]
 y = y.ravel()
 nb = GaussianNB()
 nb.fit(X, y)
-print(nb.predict([[172, 53]]))
+print(nb.predict([[130, 48]]))
